@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15%;
+}
+h1{
+    text-align: center;
+    color: #B4B4B3;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+h2{
+    text-align: center;
+    color: #232D3F;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+h5{
+    color: #4D4C7D;
+    padding-top: 7%;
+    margin-left: 20px;
+    font-size: 1rem;
+    font-family: monospace ;
+}
+p{
+    color: #4D4C7D;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+pre{
+    text-align: center;
+    margin-top: 10px;
+    color: #B4B4B3;
+    font-size: 0.9rem;
+    font-weight: 100;
+    font-display: bold;
+}
+
+
+/* float four columns side by side */
+.row{
+    display: flex;
+    padding-top: 12%;
+    padding-left: 15%;
+    
+}
+.st-card{
+    width: 270px;
+    height: 200px;
+    background-color: #ffff;
+    margin-right: 10%;
+    position: relative;
+    right: 10%;
+    top: 35%;
+    border-radius: 8px;
+    border-top: 2px solid;
+    border-color: #1AACAC;
+}
+.nd-card{
+    width: 270px;
+    height: 200px;
+    background-color: #ffff;
+    position: relative;
+    bottom: 20%;
+    padding-right: 3%;
+    padding-left: 10%;
+    border-top: 2000px solid;
+    border-radius: 8px;
+    border-top: 2px solid;
+    border-color: #C70039;
+    
+}
+.rd-card{
+    width: 270px;
+    height: 200px;
+    background-color:  #ffff;
+    position: relative;
+    left: 10%;
+    top: 35%;
+    border-radius: 8px;
+    border-top: 2px solid;
+    border-color: #E9B824;
+
+}
+.th-card{
+    width: 270px;
+    height: 200px;
+    background-color: #ffff;
+    position: relative;
+    right: 200%;
+    top: 100%;
+    border-top-color: black;
+    border-radius: 8px;
+    border-width: 10px;
+    border-top: 2px solid;
+    border-color: #6499E9;
+}
+
+/* Image section */
+.sup-image{
+    width: 50px;
+    padding-top: 23%;
+    margin-left: 75%;
+}
+.tbuilder-image{
+    width: 50px;
+    padding-top: 23%;
+    margin-left: 75%;
+
+}
+.kar-image{
+    width: 50px;
+    padding-top: 22%;
+    margin-left: 75%;
+
+}
+.Cal-image{
+    width: 50px;
+    padding-top: 22%;
+    margin-left: 75%;
+
+}
